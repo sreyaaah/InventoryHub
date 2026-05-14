@@ -6,7 +6,7 @@ This document reflects on the development process of the InventoryHub applicatio
 ## Copilot Assistance in Development
 
 ### 1. Generating Integration Code
-Copilot was instrumental in setting up the initial communication layer between the Blazor front-end and the Minimal API back-end. It suggested the use of `HttpClient` and provided boilerplate code for `GetFromJsonAsync` and `JsonSerializer.Deserialize`, which significantly sped up the integration process in Activity 1.
+Copilot was instrumental in setting up the initial communication layer between the Blazor front-end and the Minimal API back-end. It suggested the use of `HttpClient` and provided boilerplate code for `GetFromJsonAsync` and `JsonSerializer.Deserialize`, which significantly sped up the integration process in Activity
 
 ### 2. Debugging and Issue Resolution
 During Activity 2, when the front-end failed to fetch data due to CORS issues or incorrect endpoint routes, Copilot helped identify the root causes. It suggested adding the CORS middleware in the back-end and provided the correct syntax for configuring `AllowAnyOrigin`, `AllowAnyMethod`, and `AllowAnyHeader`.
